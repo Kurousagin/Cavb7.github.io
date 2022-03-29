@@ -71,7 +71,7 @@ include('menu.php');
 
 	<section>
 
-		<table border="1">
+		<table border="1" id="listar">
 			<!--<th>Id</th> -->
 			<div>
 				<th>Produto</th>
@@ -85,8 +85,8 @@ include('menu.php');
 			</div>
 
 
-			<tbody>
-				<?php
+			<tbody id="conteudo">
+	    <?php
 				$stmt = $pdo->prepare("select p.idProduto,p.produto,p.quantidade,c.categoria,p.valor,p.idCategoria
 					from tbproduto p
 					inner join tbcategoria c
@@ -112,6 +112,7 @@ include('menu.php');
 				?>
 			</tbody>
 		</table>
+
 
 	</section>
 </div>

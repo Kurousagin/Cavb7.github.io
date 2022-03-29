@@ -22,3 +22,4 @@
     
 	$stmt ->execute();
     header("location:exibicao.php");
+    
