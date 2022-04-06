@@ -3,7 +3,7 @@
 include('../login/validar.php');
 
 include('menu.php');
-?>
+?> 
 
 
 
@@ -25,20 +25,24 @@ include('menu.php');
     <main>
         <div class="container-fluid text-center  ">
 
-            <div class="container">
-                <h1 class="coll boj">Mural</h1>
+            <div class="container coll">
+                <h1 class="marg">Mural</h1>
 
-                <div class="row " >
+                <div class="row boj " >
 
                     <div class="col-lg-6">
-                        <h1 class="coll">Informações importantes</h1>
+                        <h1 class="">Informações importantes</h1>
+                        <p>Sempre logue com sua conta, não use a de outro funcionário.</p>
 
+                        <p>Caso não esteja cadastrado ainda, pedir para que um responsavel o cadastre no sistema.</p>
 
 
                     </div>
 
                     <div class="col-lg-6">
-                        <h1 class="coll">Testes</h1>
+                        <h1 class="">Testes</h1>
+                        <p>O programa está na versão beta ainda, por isso, caso haja alguma inconsistência, contate o suporte</br>
+                    (11)947942365</p>
 
                     </div>
 

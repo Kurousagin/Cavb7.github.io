@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    height: auto;
    
 }
 
@@ -11,3 +11,21 @@ body {
   
 }
 
+.coll{
+    color: #ffffff;
+}
+
+.marg{
+    padding-top: 10px;
+}
+
+.boj{
+    padding-top: 20px;
+}
+
+.col-lg-6{
+
+    border-style: groove;
+    border-color: #ffffff;
+    border-radius: 10px;
+}
