@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#000000, #434343);
+}
+
+form{
+    padding-top: 29px;
+}
+
+input{
+    margin: 3px;
+}
+
+.alig{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
